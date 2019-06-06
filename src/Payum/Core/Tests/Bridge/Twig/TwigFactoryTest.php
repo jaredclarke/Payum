@@ -12,7 +12,7 @@ class TwigFactoryTest extends TestCase
     {
         $twig = TwigFactory::createGeneric();
 
-        $this->assertInstanceOf('Twig_Environment', $twig);
+        $this->assertInstanceOf('Twig\Environment', $twig);
     }
 
     /**
